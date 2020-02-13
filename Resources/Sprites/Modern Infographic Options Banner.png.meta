@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: f941195a6e04cf04abb25765cbd64e75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2282311250416101474
+    second: Modern Infographic Options Banner_0
+  - first:
+      213: 2944647786624172894
+    second: Modern Infographic Options Banner_1
+  - first:
+      213: 8378994529855999638
+    second: Modern Infographic Options Banner_2
+  - first:
+      213: 7758567981874604603
+    second: Modern Infographic Options Banner_3
+  - first:
+      213: -5727408985751637343
+    second: Modern Infographic Options Banner_4
+  - first:
+      213: 4320308482659909071
+    second: Modern Infographic Options Banner_5
+  - first:
+      213: -2593708286245190826
+    second: Modern Infographic Options Banner_6
+  - first:
+      213: 4257884762464257718
+    second: Modern Infographic Options Banner_7
+  - first:
+      213: 7854669087230819934
+    second: Modern Infographic Options Banner_8
+  - first:
+      213: 4611082277379170855
+    second: Modern Infographic Options Banner_9
+  - first:
+      213: -9202097200167166855
+    second: Modern Infographic Options Banner_10
+  - first:
+      213: 322238156162315295
+    second: Modern Infographic Options Banner_11
+  - first:
+      213: 6449207424341493087
+    second: Modern Infographic Options Banner_12
+  - first:
+      213: -7411094699976495056
+    second: Modern Infographic Options Banner_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_0
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1033
+        width: 412
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9076fd19473461540af9e78e147fd9d3
+      internalID: 2282311250416101474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_1
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 879
+        width: 302
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6e4d2a38cad5840969fa5043d0afad
+      internalID: 2944647786624172894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_2
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 879
+        width: 300
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955c4f7b98175d244bae619ca25bbbea
+      internalID: 8378994529855999638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_3
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 892
+        width: 587
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ee3cd078d11bf4eb7fa02e8e35fee9
+      internalID: 7758567981874604603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_4
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 982
+        width: 301
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76e262ec9b0e854595795426dd73177
+      internalID: -5727408985751637343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_5
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 962
+        width: 299
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0391a51d53d70ec40942b91f5095fbe0
+      internalID: 4320308482659909071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_6
+      rect:
+        serializedVersion: 2
+        x: 3791
+        y: 962
+        width: 302
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68630d772eec2b74fafb5f76f055feb7
+      internalID: -2593708286245190826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 137
+        width: 300
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9590f0cb738a100469812055b73d5326
+      internalID: 4257884762464257718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_8
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 188
+        width: 398
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17308c3ca17d424184f241d44fc8fa7
+      internalID: 7854669087230819934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_9
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 250
+        width: 460
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2ca2b2dc6104d44bc7c8f0d1e549b3
+      internalID: 4611082277379170855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_10
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 346
+        width: 365
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef44529ad97351444ae87a0c7f60f3fa
+      internalID: -9202097200167166855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_11
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 184
+        width: 330
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ad0aec5a3069b45830819d27c8b13b
+      internalID: 322238156162315295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_12
+      rect:
+        serializedVersion: 2
+        x: 3013
+        y: 322
+        width: 300
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ba7c6588e6f0d489743c638d4cdbc0
+      internalID: 6449207424341493087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern Infographic Options Banner_13
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 311
+        width: 519
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb54b6d1fb9f474d9b7c41907c8f11a
+      internalID: -7411094699976495056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
