@@ -19,7 +19,6 @@ public class Character : ScriptableObject
     Intelligence  = 0,
     Agility = 0,
     Luck = 0;
-    public int Steps = 10;
     [Multiline(3)]
     public string CharacterLore;
 }

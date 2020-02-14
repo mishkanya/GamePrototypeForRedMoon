@@ -27,8 +27,7 @@ public class CharacterMenu : MonoBehaviour
             "\nХаризма: " + CharacterInfo.Charisma +
             "\nИнтеллект: " + CharacterInfo.Intelligence +
             "\nЛовкость: " + CharacterInfo.Agility +
-            "\nУдача: " + CharacterInfo.Luck +
-            "\n\n\nХодов осталось:" + CharacterInfo.Steps;
+            "\nУдача: " + CharacterInfo.Luck;
             Avatar.sprite = CharacterInfo.Avatar;
         }
     }

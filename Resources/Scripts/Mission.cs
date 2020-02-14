@@ -20,4 +20,7 @@ public class Mission : ScriptableObject
     NeedingLuck = 0;    
     [Space(20)]
     public bool MissionUnlocked = true;
+    public int 
+    StepToFinal = 1,
+    SpepsOnLocation = 3;
 }
