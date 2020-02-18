@@ -12,13 +12,14 @@ public class MissionMenu : MonoBehaviour
     NeedingCharacteristics;
 
     public void Hide(){
-
+        EnumContainier.SceneStateNow = SceneState.None;
         MissionName.text = "";
         MissionInfo.text = "";
         NeedingCharacteristics.text = "";
         gameObject.SetActive(false);
     }
     public void ShowMissionMenu(Mission mission){
+        EnumContainier.SceneStateNow = SceneState.ShowingMissionMenu;
         MissionName.text = mission.MissionName;
         MissionInfo.text = mission.TextOfMission;
         NeedingCharacteristics.text = 
@@ -29,5 +30,21 @@ public class MissionMenu : MonoBehaviour
             "\nИнтеллект: " + mission.NeedingIntelligence +
             "\nЛовкость: " + mission.NeedingAgility +
             "\nУдача: " + mission.NeedingLuck;
+    }
+    public void ShowMissionMenu(Location location)
+    {
+        EnumContainier.SceneStateNow = SceneState.ShowingMissionMenu;
+        MissionName.text = location.NewMission.MissionName;
+        MissionInfo.text = location.NewMission.TextOfMission;
+        NeedingCharacteristics.text = 
+            "Сила: " + location.NewMission.NeedingStrength +
+            "\nВосприятие: " + location.NewMission.NeedingPerception +
+            "\nВыносливость: " + location.NewMission.NeedingEndurance +
+            "\nХаризма: " + location.NewMission.NeedingCharisma +
+            "\nИнтеллект: " + location.NewMission.NeedingIntelligence +
+            "\nЛовкость: " + location.NewMission.NeedingAgility +
+            "\nУдача: " + location.NewMission.NeedingLuck + 
+            "\nНеобходимая энергия: " + location.NewMission.NeedingEnergy +
+            "\n\n\nЗакончится через: " + (location.NewMission.StepsOnLocation - location.MissionOnStep).ToString();
     }
 }

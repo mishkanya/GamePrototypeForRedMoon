@@ -21,6 +21,12 @@ public class Mission : ScriptableObject
     [Space(20)]
     public bool MissionUnlocked = true;
     public int 
-    StepToFinal = 1,
-    SpepsOnLocation = 3;
+    NeedingEnergy = 1,
+    StepsOnLocation = 3;
+    public Mission NextLoreMission;
+    public void AddNextLoreMission(MissionsList missionsList){
+        if(NextLoreMission != null){
+            missionsList.AddNewMission(NextLoreMission);
+        }
+    }
 }

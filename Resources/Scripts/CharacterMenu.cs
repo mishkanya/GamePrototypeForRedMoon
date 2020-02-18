@@ -13,10 +13,12 @@ public class CharacterMenu : MonoBehaviour
     LoreText,
     NameText,
     SPECIALText;
-    public void SetCharacterInfo()
+    public void SetCharacterInfo(Character character)
     {
-        if(CharacterInfo != null){
-
+        CharacterInfo = character;
+        if(CharacterInfo != null)
+        {
+            EnumContainier.SceneStateNow = SceneState.ShowingCharakterMenu;
             NameText.text = CharacterInfo.Name;
             LoreText.text = CharacterInfo.CharacterLore;
 
@@ -41,6 +43,7 @@ public class CharacterMenu : MonoBehaviour
 
     public void Close(){
         ClearCharacterInfo();
+        EnumContainier.SceneStateNow = SceneState.None;;
         gameObject.SetActive(false);
     }
 }

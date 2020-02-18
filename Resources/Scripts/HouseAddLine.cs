@@ -11,6 +11,7 @@ public class HouseAddLine : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
     }
     private void OnMouseEnter() {
+        if(EnumContainier.SceneStateNow == SceneState.None)
         _spriteRenderer.sharedMaterial = Liner;
     }
     private void OnMouseExit() {

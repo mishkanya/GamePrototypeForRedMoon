@@ -19,6 +19,7 @@ public class NewStepButton : MonoBehaviour, IPointerClickHandler
         foreach(Location location in AllLocation){
             location.LoadNewStep();
         }
+        AllLocation[0].MissionTab.gameObject.SetActive(false);
     }
     
 }

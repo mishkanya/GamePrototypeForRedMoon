@@ -26,6 +26,6 @@ MonoBehaviour:
   NeedingIntelligence: 0
   NeedingAgility: 0
   NeedingLuck: 0
-  MissionUnlocked: 1
+  MissionUnlocked: 0
   StepToFinal: 1
   SpepsOnLocation: 3

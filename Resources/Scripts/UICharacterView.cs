@@ -35,11 +35,11 @@ public class UICharacterView : MonoBehaviour
     }
     public void ViewCharacterInfo()
     {
-        if(CharacterMenuUI != null)
-        {
-            CharacterMenuUI.gameObject.SetActive(true);
-            CharacterMenuUI.CharacterInfo = this.CharacterInfo;
-            CharacterMenuUI.SetCharacterInfo();
-        }
+        if(EnumContainier.SceneStateNow == SceneState.None)
+            if(CharacterMenuUI != null)
+            {
+                CharacterMenuUI.gameObject.SetActive(true);
+                CharacterMenuUI.SetCharacterInfo(this.CharacterInfo);
+            }
     }
 }
