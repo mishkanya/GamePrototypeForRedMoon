@@ -23,13 +23,13 @@ public class MissionMenu : MonoBehaviour
         MissionName.text = mission.MissionName;
         MissionInfo.text = mission.TextOfMission;
         NeedingCharacteristics.text = 
-            "Сила: " + mission.NeedingStrength +
-            "\nВосприятие: " + mission.NeedingPerception +
-            "\nВыносливость: " + mission.NeedingEndurance +
-            "\nХаризма: " + mission.NeedingCharisma +
-            "\nИнтеллект: " + mission.NeedingIntelligence +
-            "\nЛовкость: " + mission.NeedingAgility +
-            "\nУдача: " + mission.NeedingLuck;
+            "Сила: " + mission.СoefficientStrength +
+            "\nВосприятие: " + mission.СoefficientPerception +
+            "\nВыносливость: " + mission.СoefficientEndurance +
+            "\nХаризма: " + mission.СoefficientCharisma +
+            "\nИнтеллект: " + mission.СoefficientIntelligence +
+            "\nЛовкость: " + mission.СoefficientAgility +
+            "\nУдача: " + mission.СoefficientLuck;
     }
     public void ShowMissionMenu(Location location)
     {
@@ -37,13 +37,13 @@ public class MissionMenu : MonoBehaviour
         MissionName.text = location.NewMission.MissionName;
         MissionInfo.text = location.NewMission.TextOfMission;
         NeedingCharacteristics.text = 
-            "Сила: " + location.NewMission.NeedingStrength +
-            "\nВосприятие: " + location.NewMission.NeedingPerception +
-            "\nВыносливость: " + location.NewMission.NeedingEndurance +
-            "\nХаризма: " + location.NewMission.NeedingCharisma +
-            "\nИнтеллект: " + location.NewMission.NeedingIntelligence +
-            "\nЛовкость: " + location.NewMission.NeedingAgility +
-            "\nУдача: " + location.NewMission.NeedingLuck + 
+            "Сила: " + location.NewMission.СoefficientStrength +
+            "\nВосприятие: " + location.NewMission.СoefficientPerception +
+            "\nВыносливость: " + location.NewMission.СoefficientEndurance +
+            "\nХаризма: " + location.NewMission.СoefficientCharisma +
+            "\nИнтеллект: " + location.NewMission.СoefficientIntelligence +
+            "\nЛовкость: " + location.NewMission.СoefficientAgility +
+            "\nУдача: " + location.NewMission.СoefficientLuck + 
             "\nНеобходимая энергия: " + location.NewMission.NeedingEnergy +
             "\n\n\nЗакончится через: " + (location.NewMission.StepsOnLocation - location.MissionOnStep).ToString();
     }
