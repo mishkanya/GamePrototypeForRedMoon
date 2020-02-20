@@ -354,7 +354,6 @@ GameObject:
   - component: {fileID: 50014044}
   - component: {fileID: 50014046}
   - component: {fileID: 50014045}
-  - component: {fileID: 50014047}
   m_Layer: 5
   m_Name: minion_1
   m_TagString: Untagged
@@ -420,32 +419,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50014043}
   m_CullTransparentMesh: 0
---- !u!61 &50014047
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50014043}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 250, y: 250}
-  m_EdgeRadius: 0
 --- !u!1 &53991000
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,6 +2184,7 @@ GameObject:
   - component: {fileID: 533185418}
   - component: {fileID: 533185417}
   - component: {fileID: 533185416}
+  - component: {fileID: 533185420}
   m_Layer: 5
   m_Name: avatar
   m_TagString: Untagged
@@ -2342,6 +2316,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533185414}
   m_CullTransparentMesh: 0
+--- !u!61 &533185420
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533185414}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 240, y: 240}
+  m_EdgeRadius: 0
 --- !u!1 &573979368
 GameObject:
   m_ObjectHideFlags: 0
@@ -3228,9 +3228,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 699694921}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 0.016041666, y: 0.016041666, z: 0.016041666}
   m_Children: []
   m_Father: {fileID: 1224365559}
   m_RootOrder: 0
@@ -5034,7 +5034,6 @@ GameObject:
   - component: {fileID: 1136564182}
   - component: {fileID: 1136564184}
   - component: {fileID: 1136564183}
-  - component: {fileID: 1136564185}
   m_Layer: 5
   m_Name: minion_3
   m_TagString: Untagged
@@ -5100,32 +5099,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136564181}
   m_CullTransparentMesh: 0
---- !u!61 &1136564185
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136564181}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 250, y: 250}
-  m_EdgeRadius: 0
 --- !u!1 &1171102448
 GameObject:
   m_ObjectHideFlags: 0
@@ -5347,7 +5320,7 @@ GameObject:
   - component: {fileID: 1224365558}
   m_Layer: 0
   m_Name: Cursore
-  m_TagString: Untagged
+  m_TagString: Cursore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5368,7 +5341,7 @@ MonoBehaviour:
   DragCharacter: {fileID: 11400000, guid: f313a311714b78e4982950f9c70b0acf, type: 2}
   layerMask:
     serializedVersion: 2
-    m_Bits: 32
+    m_Bits: 4294967295
 --- !u!4 &1224365559
 Transform:
   m_ObjectHideFlags: 0
@@ -5717,6 +5690,7 @@ GameObject:
   - component: {fileID: 1443854346}
   - component: {fileID: 1443854345}
   - component: {fileID: 1443854344}
+  - component: {fileID: 1443854348}
   m_Layer: 5
   m_Name: avatar
   m_TagString: Untagged
@@ -5848,6 +5822,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443854342}
   m_CullTransparentMesh: 0
+--- !u!61 &1443854348
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443854342}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 240, y: 240}
+  m_EdgeRadius: 0
 --- !u!1 &1489148059
 GameObject:
   m_ObjectHideFlags: 0
@@ -6999,7 +6999,6 @@ GameObject:
   - component: {fileID: 1711617174}
   - component: {fileID: 1711617176}
   - component: {fileID: 1711617175}
-  - component: {fileID: 1711617177}
   m_Layer: 5
   m_Name: minion_2
   m_TagString: Untagged
@@ -7065,32 +7064,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711617173}
   m_CullTransparentMesh: 0
---- !u!61 &1711617177
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711617173}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 250, y: 250}
-  m_EdgeRadius: 0
 --- !u!1 &1743754249
 GameObject:
   m_ObjectHideFlags: 0
@@ -7606,6 +7579,7 @@ GameObject:
   - component: {fileID: 2059780715}
   - component: {fileID: 2059780714}
   - component: {fileID: 2059780713}
+  - component: {fileID: 2059780717}
   m_Layer: 5
   m_Name: avatar
   m_TagString: Untagged
@@ -7737,6 +7711,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059780711}
   m_CullTransparentMesh: 0
+--- !u!61 &2059780717
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059780711}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 240, y: 240}
+  m_EdgeRadius: 0
 --- !u!1 &2074958333
 GameObject:
   m_ObjectHideFlags: 0
