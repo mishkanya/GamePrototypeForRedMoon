@@ -19,13 +19,15 @@ MonoBehaviour:
     \u0432 \u043D\u043E\u0440\u0435 \u0441\u0432\u043E\u0435\u0439 \u0441\u043E\u0431\u0430\u043A\u0438
     \u0438 \u0443\u043C\u0435\u0440. \n\u041E\u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435
     \u043C\u0435\u0441\u0442\u043E \u0441\u043C\u0435\u0442\u0440\u0438 \u0438 \u043F\u043E\u0441\u043C\u0435\u0439\u0442\u0435\u0441\u044C"
-  NeedingStrength: 1
-  NeedingPerception: 1
-  NeedingEndurance: 0
-  NeedingCharisma: 8
-  NeedingIntelligence: 0
-  NeedingAgility: 0
-  NeedingLuck: 0
+  BaseChance: 0.5
+  "\u0421oefficientStrength": 0.81
+  "\u0421oefficientPerception": 0.21
+  "\u0421oefficientEndurance": 0.6
+  "\u0421oefficientCharisma": 0
+  "\u0421oefficientIntelligence": 0.32
+  "\u0421oefficientAgility": 0.17
+  "\u0421oefficientLuck": 0.35
   MissionUnlocked: 0
-  StepToFinal: 1
-  SpepsOnLocation: 3
+  NeedingEnergy: 1
+  StepsOnLocation: 3
+  NextLoreMission: {fileID: 0}

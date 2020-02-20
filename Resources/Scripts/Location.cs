@@ -69,7 +69,20 @@ public class Location : MonoBehaviour
             MissionTab.ShowMissionMenu(this);
         }
     }
-    public void SendCharacterToMission(Character character){
-        print(character.name + "go to mission");
+    public void SendCharacterToMission(Character character)
+    {
+        print("hello");
+        if(NewMission == null)
+            return;
+        EnergyManager energy = GameObject.FindGameObjectWithTag("EnergyManager").GetComponent<EnergyManager>();
+        energy.MinusEnergy(NewMission.NeedingEnergy);
+        if(NewMission.GetChanceToCompliteMission(character) > 1)
+        {
+            print(character.name + "complite mission");
+        }
+        else
+        {
+            print(character.name + "lose mission");
+        }
     }
 }
