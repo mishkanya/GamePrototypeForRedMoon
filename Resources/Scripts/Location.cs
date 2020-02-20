@@ -69,4 +69,7 @@ public class Location : MonoBehaviour
             MissionTab.ShowMissionMenu(this);
         }
     }
+    public void SendCharacterToMission(Character character){
+        print(character.name + "go to mission");
+    }
 }

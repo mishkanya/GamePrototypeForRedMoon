@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 
-public class UICharacterView : MonoBehaviour
+public class UICharacterView : MonoBehaviour, IPointerDownHandler
 {
     public Character CharacterInfo;
 
@@ -41,5 +42,12 @@ public class UICharacterView : MonoBehaviour
                 CharacterMenuUI.gameObject.SetActive(true);
                 CharacterMenuUI.SetCharacterInfo(this.CharacterInfo);
             }
+    }
+    public void OnPointerDown(PointerEventData eventData){
+        if(CharacterInfo != null)
+        {
+            CharacterDragAndDropSystem dragAndDropSystem = GameObject.FindGameObjectWithTag("Cursore").GetComponent<CharacterDragAndDropSystem>();
+            dragAndDropSystem.SetDragCharacter(CharacterInfo);
+        }
     }
 }
