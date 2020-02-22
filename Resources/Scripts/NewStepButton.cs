@@ -5,9 +5,11 @@ using UnityEngine.EventSystems;
 
 public class NewStepButton : MonoBehaviour, IPointerClickHandler
 {
+    private EnergyManager _energyManager;
     [HideInInspector]
     public List<Location> AllLocation = new List<Location>();
     private void Start() {
+        _energyManager = GameObject.FindGameObjectWithTag("EnergyManager").GetComponent<EnergyManager>();
         GameObject[] s = GameObject.FindGameObjectsWithTag("Location");
         foreach(GameObject LocationGO in s){
             if(LocationGO.TryGetComponent(out Location location))
@@ -20,6 +22,7 @@ public class NewStepButton : MonoBehaviour, IPointerClickHandler
             location.LoadNewStep();
         }
         AllLocation[0].MissionTab.gameObject.SetActive(false);
+        _energyManager.ResetDaylyEnergy();
     }
     
 }

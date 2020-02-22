@@ -32,6 +32,7 @@ public class Mission : ScriptableObject
     public Mission NextLoreMission;
     public void AddNextLoreMission(MissionsList missionsList){
         if(NextLoreMission != null){
+            NextLoreMission.MissionUnlocked = false;
             missionsList.AddNewMission(NextLoreMission);
         }
     }

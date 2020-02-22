@@ -71,18 +71,29 @@ public class Location : MonoBehaviour
     }
     public void SendCharacterToMission(Character character)
     {
-        print("hello");
         if(NewMission == null)
             return;
         EnergyManager energy = GameObject.FindGameObjectWithTag("EnergyManager").GetComponent<EnergyManager>();
         energy.MinusEnergy(NewMission.NeedingEnergy);
         if(NewMission.GetChanceToCompliteMission(character) > 1)
         {
-            print(character.name + "complite mission");
+            OnWinMission("I`m winner!");
         }
         else
         {
-            print(character.name + "lose mission");
+            OnLoseMission("I`m loser...");
         }
+        HideMission();
+    }
+    private void OnLoseMission(string message)
+    {
+        MissionStatusMessage missionStatus = FindObjectOfType<MissionStatusMessage>();
+        missionStatus.SendNewNotification(message,false);
+    }
+    private void OnWinMission(string message)
+    {
+        NewMission.AddNextLoreMission(missionsList);
+        MissionStatusMessage missionStatus = FindObjectOfType<MissionStatusMessage>();
+        missionStatus.SendNewNotification(message,true);
     }
 }

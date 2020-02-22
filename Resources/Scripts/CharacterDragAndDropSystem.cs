@@ -15,7 +15,6 @@ public class CharacterDragAndDropSystem : MonoBehaviour
     private Transform _transform;
     private void Start()
     {
-        SetDragCharacter(DragCharacter);
         _transform = transform;
     }
     private void Update() 
