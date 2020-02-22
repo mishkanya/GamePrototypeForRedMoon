@@ -9,7 +9,7 @@ public class CharacterDragAndDropSystem : MonoBehaviour
 {
     public SpriteRenderer Avatar;
 
-    //[HideInInspector]
+    [HideInInspector]
     public Character DragCharacter;
     public LayerMask layerMask;
     private Transform _transform;
@@ -21,14 +21,15 @@ public class CharacterDragAndDropSystem : MonoBehaviour
     private void Update() 
     {
         _transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.nearClipPlane));
-        if(Input.GetMouseButtonUp(0)){
+        if(Input.GetMouseButtonUp(0))
+        {
             DropSystem();
             ClearDragCharacter();
         }
         if(Input.GetMouseButtonDown(0))
-            {
-                GetCharacterOnClick();
-            }
+        {
+            GetCharacterOnClick();
+        }
     }
     private void DropSystem(){
         if(DragCharacter == null)
